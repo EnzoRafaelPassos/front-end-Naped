@@ -240,7 +240,11 @@ button {
 .content-notice-side {
     display: none;
 }
-
+.main-p,
+.main-mini-p,
+.card-side-p {
+    font-family: 'Inter', sans-serif;
+}
 .img-card-twd-mobile {
     position: absolute;
 }
@@ -288,12 +292,12 @@ button {
 
 .main-information {
     position: relative;
-    padding-top: 280px;
+    padding-top: 300px;
     margin: 10px;
 }
 
-.main-paragraph {
-    font-size: 14px;
+.main-p  {
+    font-size: 12px;
 }
 
 /* cards com scroll */
@@ -343,11 +347,23 @@ button {
     margin-bottom: 50px;
 }
 
+.title-information-scroll{
+    font-size: 10px;
+    margin-bottom: 8px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.paragraph-information-scroll{
+    font-size: 8px;
+    color: #C4C4C4;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
 .purple-type-notices {
     position: absolute;
     background-color: #8257E6;
-    height: 15px;
-    width: 40px;
+    height: 25px;
+    width: 80px;
     border-radius: 2px;
     display: flex;
     align-items: center;
@@ -360,7 +376,7 @@ button {
 }
 
 .information-scroll {
-    padding-left: 155px;
+    padding-left: 20px;
 }
 
 .card-paragraph-information-scroll {
@@ -371,13 +387,13 @@ button {
 
 .time-card {
     font-size: 10px;
-
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .button-card {
     background-color: #8257E6;
     height: 20px;
-    width: 150px;
+    width: 120px;
     border-radius: 3px;
     display: flex;
     align-items: center;
@@ -451,9 +467,11 @@ button {
 
 .notices-infromation {
     position: relative;
-    padding-top: 140px;
+    padding-top: 170px;
     width: 300px;
-    margin: 5px;
+    margin: 2px;
+    font-size: 10px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .action-notices-latest-card {
@@ -739,11 +757,6 @@ footer {
         margin-top: 20px;
     }
 
-   
-
-    .card-type-side {
-        position: absolute;
-    }
 
     .opacity-side {
         position: absolute;
@@ -763,14 +776,17 @@ footer {
     }
 
     .title-information-scroll {
+        font-size: 20px;
         margin-bottom: 10px;
         font-family: 'Lexend Deca', sans-serif;
     }
+
 
     .paragraph-information-scroll {
         color: #C4C4C4;
         font-family: 'Lexend Deca', sans-serif;
         margin-bottom: 10px;
+        font-size: 15px;
     }
 
     .button-card {
@@ -824,6 +840,7 @@ footer {
         margin: 10px;
         text-decoration: none;
         color: #ffff;
+        font-family: 'Lexend Deca', sans-serif;;
     }
 
     .purple-type-notices {
