@@ -279,7 +279,7 @@ button {
     position: absolute;
     height: 25px;
     width: 80px;
-    border-radius: 3px;
+    border-radius: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -293,7 +293,7 @@ button {
 .main-information {
     position: relative;
     padding-top: 300px;
-    margin: 10px;
+    padding-left: 10px;
 }
 
 .main-p  {
@@ -319,7 +319,7 @@ button {
     text-decoration: none;
     color: #ffff;
     width: 250px;
-    height: 200px;
+    height: 110px;
 
 }
 
@@ -343,7 +343,7 @@ button {
 
 .card {
     display: flex;
-    height: 200px;
+    height: 110px;
     margin-bottom: 50px;
 }
 
@@ -363,7 +363,7 @@ button {
     position: absolute;
     background-color: #8257E6;
     height: 25px;
-    width: 80px;
+    width: 50px;
     border-radius: 2px;
     display: flex;
     align-items: center;
@@ -455,6 +455,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Lexend Deca', sans-serif;;
     font-size: 12px;
     margin: 10px;
     text-decoration: none;
@@ -467,9 +468,12 @@ button {
 
 .notices-infromation {
     position: relative;
-    padding-top: 170px;
+    padding-top: 150px;
+    font-size: 13px;
+    padding-left: 8px;
+    padding-right: 8px;
     width: 300px;
-    margin: 2px;
+    height: 200px;
     font-size: 10px;
     font-family: 'Lexend Deca', sans-serif;
 }
@@ -607,6 +611,10 @@ footer {
     .main-mini-p,
     .card-side-p {
         font-family: 'Inter', sans-serif;
+    }
+
+    .main-p  {
+        font-size: 15px;
     }
 
     .card-side-p {
@@ -757,6 +765,11 @@ footer {
         margin-top: 20px;
     }
 
+    .card {
+        display: flex;
+        height: 200px;
+        margin-bottom: 50px;
+    }
 
     .opacity-side {
         position: absolute;
@@ -864,9 +877,11 @@ footer {
 
     .notices-infromation {
         width: 300px;
-        padding-top: 130px;
-        font-size: 13px;
-        line-height: 20px;
+        padding-top: 128px;
+        font-size: 12px;
+        padding-left: 8px;
+        padding-right: 8px;
+        line-height: 18px;
         font-family: 'Lexend Deca', sans-serif;
 
     }
